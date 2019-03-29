@@ -1,0 +1,62 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "name": "Clement Pericles",
+      "handle": "@RomanceSummary",
+      "desc": "The Change in Quality Score Reporting: What REALLY Happened? | WordStream http://www.wordstream.com/blog/ws/2013/08/26/quality-score-reporting-change … (@WordStream)",
+      "picture": "./assets/clement.png"
+    },
+    {
+      "id": 2,
+      "name": "Sofia Aeliana",
+      "handle": "@Cleamsta",
+      "desc": "If you aren’t using the new Facebook Ads reporting, you’re missing out. A huge improvement from the previous version (@glenngabe)",
+      "picture": "./assets/sofia.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Iakovu Chedomir",
+      "handle": "@Comonkit",
+      "desc": "2 Chainz arrested following a nine-hour standoff over tour bus access: Rapper and his entourage refused t… http://bit.ly/1bZH7Cv #TBR (@TrueBornRecords)",
+      "picture": "./assets/iakovu.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Finley Quang",
+      "handle": "@Selfchense",
+      "desc": "Learn the differences between a chipotle and an ancho with this video from America’s Test Kitchen: http://lifehac.kr/MzCjosw (@lifehacker)",
+      "picture": "./assets/finley.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Varnava Tiia",
+      "handle": "@Queyworxcr",
+      "desc": "Drive traffic with Pinterest. It is exploding. Watch this 7 minute tutorial http://bit.ly/UsePinterest (@PowerLineTrain)",
+      "picture": "./assets/varnava.jpg"
+    }
+  ],
+  "trends": [
+    {
+      "trend_text": "#LasVegas"
+    },
+    {
+      "trend_text": "#WashingtonDC"
+    },
+    {
+      "trend_text": "#FireEye"
+    },
+    {
+      "trend_text": "#SanFrancisco"
+    },
+    {
+      "trend_text": "#Security"
+    },
+    {
+      "trend_text": "#AngularJS"
+    },
+    {
+      "trend_text": "#Twitter"
+    }
+  ]
+}
