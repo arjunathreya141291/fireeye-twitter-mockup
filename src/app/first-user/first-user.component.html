@@ -1,0 +1,98 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <a href="#"><img class="img-responsive" alt="" src="./assets/800x500.png"></a>
+          <div class="row">
+            <div class="col-xs-4">
+              <h5>
+                <small>TWEETS</small><br>
+                <a href="#">1,545</a>
+              </h5>
+            </div>
+            <div class="col-xs-4">
+              <h5>
+                <small>FOLLOWING</small><br>
+                <a href="#">251</a>
+              </h5>
+            </div>
+            <div class="col-xs-4">
+              <h5>
+                <small>FOLLOWERS</small><br>
+                <a href="#">153</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <app-trends></app-trends>
+      <app-copyright></app-copyright>
+
+
+    </div>
+    <div class="col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <div class="media">
+            <a class="media-left" href="#fake">
+              <img alt="" class="media-object img-rounded thumb" src="./assets/one.jpeg">
+            </a>
+            <div class="media-body">
+              <div class="form-group has-feedback">
+                <label class="control-label sr-only" for="inputSuccess5">Hidden label</label>
+                <input [(ngModel)]="tweet" placeholder="Compose a tweet" type="text" class="form-control" id="search2" aria-describedby="search">
+               <button class="btn btn-primary" (click)="addItems()" [disabled]="!tweet">Tweet</button>
+                <span id="search2" class="sr-only">(success)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+
+          <div  *ngIf="newItemsAdded">
+          <div class="media" *ngFor="let item of newItemsAdded">
+            <a class="media-left" href="#fake">
+              <img alt="" class="media-object img-rounded thumb" src="{{item.picture}}">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">{{item.name}}&nbsp;<span class="handle">{{item.handle}}</span></h4>
+              <p>{{item.desc}}</p>
+              <ul class="nav nav-pills nav-pills-custom">
+                <li><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-retweet"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-option-horizontal"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+
+          <div class="media" *ngFor="let item of itemList.tweets">
+            <a class="media-left" href="#fake">
+              <img alt="" class="media-object img-rounded thumb" src="{{item.picture}}">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">{{item.name}}&nbsp;<span class="handle">{{item.handle}}</span></h4>
+              <p>{{item.desc}}</p>
+              <ul class="nav nav-pills nav-pills-custom">
+                <li><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-retweet"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-option-horizontal"></span></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+</div>

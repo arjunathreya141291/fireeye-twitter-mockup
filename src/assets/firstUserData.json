@@ -1,0 +1,62 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "name": "Arjun Athreya",
+      "handle": "@14arjun",
+      "desc": "How great is Angular JS? AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop. #Angular",
+      "picture": "./assets/arjun.png"
+    },
+    {
+      "id": 2,
+      "name": "Kevin Peterson",
+      "handle": "@kpzzzzz",
+      "desc": "Wanted — Ambitious – Hard Working Individuals! ••>>> http://dk-rec.info/PTS (@Davy_robot)",
+      "picture": "./assets/kevin.png"
+    },
+    {
+      "id": 3,
+      "name": "Hayden King",
+      "handle": "@hkingoftheworld",
+      "desc": "This. Is concerning. http://bigstory.ap.org/article/radioactive-ground-water-under-fukushima-nears-sea … #radioactive (@JimDuncan)",
+      "picture": "./assets/hayden.png"
+    },
+    {
+      "id": 4,
+      "name": "Ben Glenn",
+      "handle": "@judferwty",
+      "desc": "$CRM==wow! Shorts be scrambling. Maybe wait a bit now to start a new position. (@jimcramer)",
+      "picture": "./assets/ben.png"
+    },
+    {
+      "id": 5,
+      "name": "Jim",
+      "handle": "@jimmavs",
+      "desc": "Free White Paper: 50 Best Practices to Go Beyond Landing Pages. Get your free 25-page guide today! (@ioninteractive)",
+      "picture": "./assets/jim.jpeg"
+    }
+  ],
+  "trends": [
+    {
+      "trend_text": "#LasVegas"
+    },
+    {
+      "trend_text": "#WashingtonDC"
+    },
+    {
+      "trend_text": "#FireEye"
+    },
+    {
+      "trend_text": "#SanFrancisco"
+    },
+    {
+      "trend_text": "#Security"
+    },
+    {
+      "trend_text": "#AngularJS"
+    },
+    {
+      "trend_text": "#Twitter"
+    }
+  ]
+}

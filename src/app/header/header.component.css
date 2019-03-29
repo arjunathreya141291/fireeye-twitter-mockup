@@ -1,0 +1,19 @@
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+input{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.navbar-default{
+  background-color: #00aced !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #ffffff !important;
+}

@@ -1,0 +1,9 @@
+.handle{
+  color: #lightgray !important;
+  font-size: 12px;
+}
+
+.thumb{
+  width: 64px;
+  height: 64px;
+}
